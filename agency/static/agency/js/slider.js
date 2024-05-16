@@ -24,7 +24,15 @@ $(document).ready(function(){
         dots: true,
         centerMode: true,
         focusOnSelect: true,
-        variableWidth: true
+        variableWidth: true,
+        responsive: [
+            {
+              breakpoint: 1000,
+              settings: {
+                arrows: false,
+              }
+            }
+        ]
     });
 
 });

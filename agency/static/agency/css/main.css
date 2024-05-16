@@ -27,19 +27,33 @@
 }
 
 .for-img {
-    width: 720px !important;
-    height: 420px !important;
+    max-width: 720px !important;
+    max-height: 420px !important;
 }
 
 .slider-for {
-    width: 720px !important;
-    height: 420px !important;
+    max-width: 720px !important;
+    max-height: 420px !important;
 }
 
 
 .slider-nav img {
     display: block;
-    width: 240px;
+    max-width: 240px;
     margin-right: 20px;
 
 }
+
+@media screen and (max-width: 1000px) {
+    .slider-nav img {
+        margin-right: 10px;
+        max-width: 124px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider-nav img {
+        margin-right: 5px;
+        max-width: 100px;
+    }
+  }
