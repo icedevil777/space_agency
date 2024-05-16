@@ -1,0 +1,26 @@
+.my-header {
+  height: 90px;
+  background-color: #0A121E;
+}
+
+
+.my-but {
+    background-color: #FF342B !important;
+    border-radius: 4px !important;
+    width: 88px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+
+.space-img {
+    max-width: 457px;
+    max-height: 457px;
+}
+
+
+.title {
+    
+}

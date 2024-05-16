@@ -2,7 +2,7 @@
 
 <https://www.figma.com/file/csU67B0SQVZO1AkwvMZa3D/Тестовое-задание-N2?type=design&node-id=1-1012&mode=design&t=wz2qpqpXo6RochwT-0/>
 
-![Изображение](agency/static/agency/task_photo.png)
+![Изображение](agency/static/agency/img/task_photo.png)
 
 - сборку проекта осуществить с помощью python 3.9, Django 4.1 и MySQL
 - проект разместить в git репозитории
