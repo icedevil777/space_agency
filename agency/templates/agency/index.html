@@ -15,26 +15,20 @@
     <link href="{% static 'agency/css/main.css' %}" rel="stylesheet">
 </head>
 
-<body class="">
-    <!-- <div class="container-lg"> -->
-
-
+<body>
     <header>
         <nav class="navbar navbar-dark navbar-expand bg-dark my-header">
             <div class="container-lg justify-content-between">
                 <div>
-                    <!-- <a class="navbar-brand d-sm-none" href="#"> {% include 'agency/swg/menu.html' %}</a> -->
                     <div class="dropdown d-flex">
                         <a class="navbar-brand d-sm-none dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false"> {% include 'agency/swg/menu.html' %}</a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <li><a class="dropdown-item active" href="#">Преимущества</a></li>
-                            <li><a class="dropdown-item" href="#">Фотографииn</a></li>
+                            <li><a class="dropdown-item" href="#photo">Фотографииn</a></li>
                         </ul>
                         <a class="navbar-brand  " href="#"> {% include 'agency/swg/logo.html' %}</a>
                     </div>
-
-
                 </div>
 
                 <ul class="navbar-nav d-none d-sm-flex gap-md-5">
@@ -42,10 +36,9 @@
                         <a class="nav-link active " aria-current="page" href="#">Преимущества</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Фотографии</a>
+                        <a class="nav-link " href="#photo">Фотографии</a>
                     </li>
                 </ul>
-
                 <button class="btn btn-danger my-but" type="submit">ВХОД</button>
             </div>
         </nav>
@@ -54,7 +47,7 @@
     <main class="mt-5">
         <div class="container-lg">
             <div class="row mx-auto text-center" style="max-width: 745px;">
-                <h1 class="fs-1" style="color: #0A121E;" >
+                <h1 class="fs-1" style="color: #0A121E;">
                     Космическое агентство
                 </h1>
                 <p style="color: #3C3C3C; font-size: 18px; font-weight: 400; line-height: 30px;">
@@ -64,7 +57,7 @@
                 </p>
             </div>
             <!-- style="color: #0A121E; font-size: 56px; font-weight: 400; line-height: 69px;" -->
-            <div class="row align-items-center gap-5 justify-content-center mt-5"> 
+            <div class="row align-items-center gap-5 justify-content-center mt-5">
                 <div class="col-12 col-md-6">
                     <div class="row">
                         <div class="col text-center">
@@ -98,14 +91,17 @@
 
 
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="container-lg" id="photo">
+            Фотографии
+        </div>
 
     </footer>
-    <!-- </div> -->
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-        </script>
+    </script>
 
 </body>
 
