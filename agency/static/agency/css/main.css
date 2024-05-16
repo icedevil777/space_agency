@@ -25,3 +25,21 @@
     background-color: #3C3C3C;
 
 }
+
+.for-img {
+    width: 720px !important;
+    height: 420px !important;
+}
+
+.slider-for {
+    width: 720px !important;
+    height: 420px !important;
+}
+
+
+.slider-nav img {
+    display: block;
+    width: 240px;
+    margin-right: 20px;
+
+}
