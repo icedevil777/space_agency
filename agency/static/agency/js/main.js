@@ -1,11 +1,12 @@
-// $(document).ready(function(){
-//     $('.slick-slider').slick({
-//       "setting-name": "setting-value",
-//       infinite: true,
-//       slidesToShow: 3,
-//       slidesToScroll: 3
-//     });
-// });
+Fancybox.bind('[data-fancybox="gallery"]', {
+
+});
+
+
+const el = document.querySelector(".test-clc");
+
+console.log('el', el)
+
 
 
 $(document).ready(function(){
@@ -38,6 +39,3 @@ $(document).ready(function(){
 });
 
 
-Fancybox.bind('[data-fancybox="gallery"]', {
-
-});

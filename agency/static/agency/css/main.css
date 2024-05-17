@@ -44,6 +44,15 @@
 
 }
 
+
+
+.slick-slide img {
+    height: 420px;
+    width: 720px;
+
+}
+
+
 @media screen and (max-width: 1000px) {
     .slider-nav img {
         margin-right: 10px;
