@@ -30,7 +30,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'agency'
+    'agency',
+    'easy_thumbnails',
+    'filer'
 ]
 
 MIDDLEWARE = [
@@ -68,14 +70,14 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-   'default': {
-      'ENGINE': 'django.db.backends.mysql',
-      'NAME': 'agency',
-      'USER': 'agency',
-      'PASSWORD': 'agency',
-      'HOST': '127.0.0.1',
-      'PORT': '3306',
-   }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'agency',
+        'USER': 'agency',
+        'PASSWORD': 'agency',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
 }
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators

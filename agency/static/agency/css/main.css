@@ -27,13 +27,13 @@
 }
 
 .for-img {
-    max-width: 720px !important;
-    max-height: 420px !important;
+    max-width: 520px !important;
+    max-height: 320px !important;
 }
 
 .slider-for {
-    max-width: 720px !important;
-    max-height: 420px !important;
+    max-width: 520px !important;
+    max-height: 320px !important;
 }
 
 
@@ -44,14 +44,11 @@
 
 }
 
-
-
 .slick-slide img {
-    height: 420px;
-    width: 720px;
+    height: 320px;
+    width: 520px;
 
 }
-
 
 @media screen and (max-width: 1000px) {
     .slider-nav img {
